@@ -6,9 +6,6 @@ from config import *
 
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 
-WEBAPP_HOST = 'localhost'
-WEBAPP_PORT = 3001
-
 bot = Bot(token=API_TOKEN,)
 dp = Dispatcher(bot)
 dp.middleware.setup(LoggingMiddleware())

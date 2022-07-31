@@ -13,10 +13,10 @@ __all__ = [
 
 
 #Telegram bot token
-API_TOKEN = '5596410114:AAH3pAvdIR9u9TBVsgMjwDKB2vat_q3mYN8'
+API_TOKEN = ''
 
 #WEbhook
-WEBHOOK_HOST = 'https://5936-178-54-130-218.eu.ngrok.io'
+WEBHOOK_HOST = 'https://domain.com'
 WEBHOOK_PATH = '/'
 
 #WebAPP
@@ -24,8 +24,8 @@ WEBAPP_HOST = 'localhost'
 WEBAPP_PORT = 3001
 
 #PostgreSQL settings
-DBNAME = 'database'
-USER = 'admin'
-PASSWORD = 'admin'
+DBNAME = 'postgres'
+USER = 'postgres'
+PASSWORD = 'password'
 HOST = 'localhost'
-TABLENAME = 'telegramdb'
+TABLENAME = ''
